@@ -86,6 +86,10 @@
     margin-right: 4px;
 }
 
+.modal .select2-container {
+    width: 100% !important;
+}
+
 .select2-container :focus {
     outline: 0
 }

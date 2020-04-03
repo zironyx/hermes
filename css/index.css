@@ -11,13 +11,25 @@
     flex-direction: column;
 }
 
+#banner-mini .banner-mini-wrap {
+    background-image: linear-gradient(135deg, rgba(52, 24, 66, 1), rgba(26, 41, 70, 0.8), rgba(26, 69, 73, 1)), url("../img/main_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .services-wrap .svc-icon,
 .contact-wrap .svc-icon,
 .about-wrap .svc-icon {
     font-size: 8rem;
     padding: 2rem;
     font-weight: 100;
-
 }
 
 .services-wrap .row>.col,
@@ -34,7 +46,7 @@
 
 .theme {
     /* background: linear-gradient(135deg, #dc2430cc 5%, #7b4397ee 95%), #555; */
-    background: linear-gradient(135deg, #a24bcfBB, #4b79cfAA, #4b79cfAA, #4bc5cfBB);
+    background: linear-gradient(135deg, #a24bcfBB, #4b79cfAA, #4b79cfAA, #4bc5cfBB), #343a40;
     border: none;
     color: white;
 }
@@ -58,12 +70,58 @@
     transform: scale(1.1);
 }
 
-a.link{
+a.link {
     text-decoration: none;
     color: inherit;
 }
 
-a.link:hover{
+a.link:hover {
     text-decoration: none;
     color: inherit;
+}
+
+.service-details-wrap {
+    min-height: 50vh;
+}
+
+.form-service-request>* {
+    margin: 1.5rem;
+}
+
+.form-service-request .input-group {
+    width: 100%;
+}
+
+.form-service-request .input-group-prepend>* {
+    border-top-left-radius: 50em;
+    border-bottom-left-radius: 50em;
+    background: #343a40;
+    color: white;
+    padding-left: 1.6rem;
+    min-width: 6rem;
+    padding-right: 1rem;
+    border: 1px solid #343a40AA;
+}
+
+.form-service-request input {
+    border-top-right-radius: 50em;
+    border-bottom-right-radius: 50em;
+}
+
+.vendor-card-wrap .card {
+    max-width: 540px;
+}
+
+.how-it-works ul li {
+    background-color: transparent;
+    padding: 2rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.how-it-works ul li .hiw-icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+    width: 4rem;
 }
